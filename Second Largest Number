@@ -1,3 +1,5 @@
+https://www.codingninjas.com/studio/problems/ninja-and-the-second-order-elements_6581960?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
 int secondLargest(vector<int>&a,int n) {
     int largest = a[0];
     int slargest = -1;
