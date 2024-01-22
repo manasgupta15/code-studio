@@ -1,0 +1,17 @@
+https://www.codingninjas.com/studio/problems/ninja-and-the-sorted-check_6581957?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+
+int isSorted(int n, vector<int> a) {
+    // Write your code here.
+    int largest = a[0];
+    for(int i=1;i<n;i++){
+        if(a[i]>largest){
+            largest = a[i];
+        }
+    }
+
+    if(a.back() == largest){
+        return 1;
+    } else{
+        return 0;
+    }
+}
